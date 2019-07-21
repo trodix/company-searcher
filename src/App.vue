@@ -9,18 +9,18 @@
     </v-toolbar>
 
     <v-content>
-      <SearchBar/>
+      <Home/>
     </v-content>
   </v-app>
 </template>
 
 <script>
-import SearchBar from './components/SearchBar'
+import Home from './views/Home'
 
 export default {
   name: 'App',
   components: {
-    SearchBar
+    Home
   },
   data () {
     return {

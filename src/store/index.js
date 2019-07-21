@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
-import siren from './modules/siren/index';
+import siret from './modules/siret/index';
 
 Vue.use(Vuex);
 
@@ -8,7 +8,7 @@ const debug = process.env.NODE_ENV !== 'production';
 
 export default new Vuex.Store({
   modules: {
-    siren,
+    siret,
   },
   strict: debug,
   plugins: [],
