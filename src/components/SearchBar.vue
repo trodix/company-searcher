@@ -24,7 +24,6 @@ export default {
   },
   methods: {
     onSiretValid() {
-      console.log(this.$refs.form.validate());
       if(this.$refs.form.validate()) {
         this.$store.dispatch('siret/fetchCompanie', this.query); // call action fetchCompanies and gives it's arg
       }

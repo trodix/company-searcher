@@ -39,7 +39,6 @@ export default {
     computed: {
         companie() {
             let companie = this.$store.state.siret.companie;
-            console.log('computed', companie);
             return companie
         }
     },
